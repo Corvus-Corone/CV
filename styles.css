@@ -1,0 +1,253 @@
+/* Tag Selectors -------------------------------------------------- */
+header {
+  background-color: #fff1cf;
+  height: 35em;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+body {
+  background-color: #015668;
+  margin: 0;
+  font-family: serif;
+}
+
+nav {
+  background-color: #015668;
+  padding: 20px;
+  font-size: 90%;
+}
+
+input{
+  width: 80%
+}
+
+textarea{
+  width: 80%
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+hr {
+  border-color: #fff1cf;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 500%;
+  font-family: 'IM Fell DW Pica', Garamond, serif;
+  color: #015668;
+  line-height: .5
+}
+
+h2 {
+  font-size: 200%;
+  font-family: 'IM Fell DW Pica', Garamond, serif;
+  font-style: italic;
+  color: #015668;
+}
+
+h3 {
+  font-size: 180%;
+  font-family: 'IM Fell DW Pica', Garamond, serif;
+  color: #fff1cf;
+  text-align: center;
+  font-style: italic;
+  margin: 20px;
+}
+
+h4 {
+  font-size: 120%;
+  font-family: "Courier New", Garamond, serif;
+  color: #fff1cf;
+  text-align: center;
+}
+
+h5 {
+  font-size: 100%;
+  font-family: "Courier New";
+  color: #ececec;
+  text-align: center;
+}
+
+p {
+  font-size: 120%;
+  font-family: "Courier New";
+  color: #ececec;
+  text-align: left;
+}
+
+a {
+  color: #ffd369;
+  text-decoration: none
+}
+
+table {
+  font-family: "Courier New";
+  color: #ececec;
+}
+
+li {
+  font-size: 120%;
+  font-family: "Courier New";
+  color: #ececec;
+  text-align: center;
+}
+
+/* Class Selectors-------------------------------------------------- */
+.profile-img {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  left: auto;
+  top: 100px
+}
+
+.profile-txt {
+  align-content: center;
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 0, 0, 0, 10px;
+  position: relative;
+  left: 450px;
+  top: 10px;
+}
+
+.content-contrast {
+  background-color: #fff1cf;
+  color: #015668;
+  position: relative;
+  display: block;
+  margin: 10px, 0, 10px, 0;
+}
+
+.content-block {
+  background-color: #015668;
+  color: #fff1cf;
+  position: relative;
+  display: block;
+  height: 600px;
+  width: 100%;
+  margin: 10px, 0, 10px, 0;
+  text-align: center;
+}
+
+.two-column{
+column-count: 2;
+column-gap: 20px;
+margin: 0;
+}
+
+.background-block {
+  background-color: #fff1cf;
+  position: static;
+  display: block;
+  height: 150px;
+  width: 100%;
+  top: 600px;
+  margin: 10px, 0, 10px, 0;
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 3
+}
+
+.menu-item {
+  font-size: 20px;
+  font-family: 'IM Fell DW Pica', Garamond, serif;
+  color: #fff1cf;
+  font-style: italic;
+  left: auto;
+  right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-item:hover {
+  font-family: 'IM Fell DW Pica', Garamond, serif;
+  color: #ffd369;
+  font-style: italic;
+  left: auto;
+  right: auto;
+}
+
+.contact-item {
+  font-size: 20px;
+  font-family: "Garamond";
+  color: #015668;
+  font-style: italic;
+  padding-left: 30px
+}
+
+.contact-item {
+  width: 50%
+}
+
+.contact-block {
+  background-color: #fff1cf;
+  color: #015668;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+
+.footer-contrast {
+  background-color: #fff1cf;
+  color: #015668;
+  margin: 0;
+  padding: 5px;
+}
+
+.footer-item {
+  font-size: 20px;
+  font-family: 'IM Fell DW Pica', Garamond, serif;
+  color: #015668;
+  font-style: italic;
+  display: inline-block;
+  left: auto;
+  right: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.skills_icon {
+  width: 20%;
+  height: 25%;
+  display: inline-block;
+  position: relative;
+  top: 10px, left: auto;
+  right: auto;
+  bottom: 50px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  border: 10px;
+  text-align: center;
+}
+
+.form{
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Id Selectors -------------------------------------------------- */
