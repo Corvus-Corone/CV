@@ -5,118 +5,161 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sam Crow</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- Nav Bar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-colour:#015668; color: #fff1cf; font-family: 'IM Fell DW Pica', Garamond, serif;">
+    <a class="navbar-brand" href="index.html">
+      <img src="Crow_skull_menu.png" height="50" alt="Crow_skull_menu">
+    </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#Work">Experience</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+      </ul>
+   </div>
+ </nav>
+
+<!-- Header -->
+
   <header>
-    <nav class="menu">
-      <a href="#Skills">
-        <h3 class="menu-item">Skills</h3>
-      </a>
-      <a href="#Work">
-        <h3 class="menu-item">Work Experience</h3>
-      </a>
-      <a href="#Education">
-        <h3 class="menu-item">Education</h3>
-      </a>
-      <a href="Contact.html">
-        <h3 class="menu-item"> Contact</h3>
-      </a>
-    </nav>
-    <img class="profile-img" height="400" src="Sam-Crow.png" alt="Sam_Crow_Digital_Marketer">
+<div class="row">
+  <div class="col-lg-3 col-md-6">
+      <img class="profile-img" width="100%" src="Sam-Crow.png" alt="Sam_Crow_Digital_Marketer">
+  </div>
+  <div class="col-lg-6 col-md-6" style="padding-bottom:55px">
     <div class="profile-txt">
       <h1>Sam Crow</h1>
       <h2><em>Digital Marketer <br>& aspiring Developer</em></h2>
-      <p style="color: #015668; font-size: 15px">I am a Digital Marketer in the Healthcare sector,<br> looking to explore my intrest in web development.</p>
+      <p style="color: #015668; font-size: 120%">I am a Digital Marketer in the Healthcare sector, exploring my intrest in web development.</p>
     </div>
+  </div>
+  <div class="col-lg-3 d-sm-none d-none d-lg-block">
     <img src="Crow_skull_transparent.png" alt="crow_skull" style="
     display: inline-block;
-      margin: 5px,0, 0, 0;
-      position: relative;left: 480px;top: 120px;bottom: auto;
-      width:300px;
+      width:80%;
        opacity: 0.5;">
+  </div>
+</div>
   </header>
 
+  <!-- Skills & Stengths -->
   <div class="content-block">
     <a id="Skills">
       <h3>Skills & Strengths</h3>
-      <hr>
-    </a>
-    <br>
-    <br>
-    <div class="skills_icon">
-      <img src="content_marketing.png" alt="content marketing" width="50%" style="left:auto; right: auto" />
-      <h4>Content Marketing</h4>
-    </div>
-    <div class="skills_icon">
-      <img src="content_writing.png" alt="content writing" width="50%" style="left:auto; right: auto" />
-      <h4>Content Writing</h4>
-    </div>
-    <div class="skills_icon">
-      <img src="crm.png" alt="customer relationship management" width="50%" style="left:auto; right: auto" />
-      <h4>CRM</h4>
-    </div>
-    <div class="skills_icon">
-      <img src="design.png" alt="design" width="50%" style="left:auto; right: auto" />
-      <h4>Design</h4>
-    </div>
-    <br>
-    <div class="skills_icon">
-      <img src="inbound.png" alt="inbound marketing" width="50%" style="left:auto; right: auto" />
-      <h4>Inbound Marketing</h4>
-    </div>
-    <div class="skills_icon">
-      <img src="medical_marketing.png" alt="medical marketing" width="50%" style="left:auto; right: auto" />
-      <h4>Medical Marketing</h4>
-    </div>
-    <div class="skills_icon">
-      <img src="photography.png" alt="photography" width="50%" style="left:auto; right: auto" />
-      <h4>photography</h4>
-    </div>
-    <div class="skills_icon">
-      <img src="wed_development.png" alt="web development" width="50%" style="left:auto; right: auto" />
-      <h4>Web Development</h4>
-    </div>
-    <div class="background-block">
-      <img src="Crow_skull_bg.png" alt="" style="width:100%;opacity:0.5;">
-    </div>
-    <div class="content-block" style="height:650px">
+      <hr>  </a>
+      <br>
+      <br>
+
+<div class="row">
+  <div class="col-lg-3 col-md-4 col-6" style="padding:20px">
+    <img src="content_marketing.png" alt="content marketing" width="50%" style="left:auto; right: auto" />
+    <h4>Content Marketing</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="content_writing.png" alt="content writing" width="50%" style="left:auto; right: auto" />
+    <h4>Content Writing</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="crm.png" alt="customer relationship management" width="50%" style="left:auto; right: auto" />
+    <h4>CRM</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="design.png" alt="design" width="50%" style="left:auto; right: auto" />
+    <h4>Design</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="inbound.png" alt="inbound marketing" width="50%" style="left:auto; right: auto" />
+    <h4>Inbound</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="medical_marketing.png" alt="medical marketing" width="50%" style="left:auto; right: auto" />
+    <h4>Medical Marketing</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="photography.png" alt="photography" width="50%" style="left:auto; right: auto" />
+    <h4>Photography</h4>
+  </div>
+  <div class="col-lg-3 col-md-4  col-6" style="padding:20px">
+    <img src="wed_development.png" alt="web development" width="50%" style="left:auto; right: auto" />
+    <h4>Web Development</h4>
+  </div>
+</div>
+
+<div class="background-block">
+  <img src="Crow_skull_bg.png" alt="" style="width:100%; z-index: 1;opacity:0.5;">
+</div>
+
+  <!-- Experience -->
+
+    <div class="content-block">
       <a id="Work">
         <h3>Work Experience</h3>
         <hr>
       </a>
-      <div class="two-column">
-        <h4>Digital Marketing Manager
-          <h4 />
-          <img src="wellspect.png" alt="wellspect" width="20%" style="left:auto; right: auto" />
-          <h5>Wellspect Healthcare <br> 2019-Present</h5>
+
+      <div class="row">
+        <div class="col-md-6 col-12" style="padding:40px">
+          <h4>Digital Marketing Manager
+            <h4 />
+          <a href="https://www.wellspect.co.uk/"> <img src="wellspect.png" alt="wellspect" width="20%" style="left:auto; right: auto" />
+            <h5>Wellspect Healthcare <br> 2019-Present</h5></a>
+        </div>
+        <div class="col-md-6 col-12" style="padding:40px">
           <h4>Brand Manager
             <h4 />
-            <img src="wellspect.png" alt="wellspect" width="20%" style="left:auto; right: auto" />
-            <h5>Wellspect Healthcare <br> 2018-2019</h5>
-            <h4>Account Manager
-              <h4 />
-              <img src="Liquorice.png" alt="liquorice marketinf" width="20%" style="left:auto; right: auto" />
-              <h5>Liquorice <br> 2016-2018</h5>
-              <h4>Marketing & Communications Coordinator
-                <h4 />
-                <img src="vanguard.png" alt="wellspect" width="20%" style="left:auto; right: auto" />
-                <h5>Vangaurd Healthcare Solutions <br> 2014-2016</h5>
+              <a href="https://www.wellspect.co.uk/"> <img src="wellspect.png" alt="wellspect" width="20%" style="left:auto; right: auto" />
+            <h5>Wellspect Healthcare <br> 2018-2019</h5> </a>
+        </div>
+        <div class="col-md-6 col-12" style="padding:40px">
+          <h4>Account Manager
+            <h4 />
+          <a href="https://liquorice.marketing/"> <img src="Liquorice.png" alt="liquorice marketing" width="20%" style="left:auto; right: auto" />
+            <h5>Liquorice <br> 2016-2018</h5></a>
+        </div>
+        <div class="col-md-6 col-12" style="padding:40px">
+          <h4>Marketing & Communications Coordinator
+            <h4 />
+          <a href="https://www.vanguardhealthcare.co.uk/"> <img src="vanguard.png" alt="wellspect" width="20%" style="left:auto; right: auto" />
+            <h5>Vangaurd Healthcare Solutions <br> 2014-2016</h5> </a>
+        </div>
       </div>
-      <br>
     </div>
     <div class="background-block">
       <img src="Crow_skull_bg.png" alt="" style="width:100%; z-index: 1;opacity:0.5;">
     </div>
-    <div class="content-block" style="height:350px">
+
+  <!-- Education -->
+
+    <div class="content-block" style="">
       <a id="Education">
         <h3>Education</h3>
         <hr>
       </a>
-      <h4>Masters Degree in History <i>with Merit</i></h4>
+      <h4>Master's Degree in History <i>with Merit</i></h4>
       <h5>Univerity of Bristol 2012-2013</h5>
       <br>
       <h4>Bachelor's Degree in History <i>2:1</i></h4>
@@ -128,7 +171,7 @@
   <div position="absolute"> <a class="footer-item" href="https://www.linkedin.com/in/sam-crow-6b1526a8/" style="margin:left500">LinkedIn</a>
     <a class="footer-item" href="https://www.facebook.com/sam.crow.52012">Facebook</a>
     <a class="footer-item" href="https://www.instagram.com/sjecrow/">Instagram</a>
-        <a class="footer-item" href="Contact.html">Get in Touch</a>
+        <a class="footer-item" href="contact.html">Get in Touch</a>
     <p style="font-size: 20px;
   font-family: 'IM Fell DW Pica',Garamond , serif;
   color: #015668;display: block;
